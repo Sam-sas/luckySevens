@@ -1,0 +1,52 @@
+/*
+    Name: Sam Shepard
+    Date Created: 9/17/18
+    Most recent revision: 9/18/18
+*/
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1.3em;
+}
+
+
+h1, form {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.7em;
+}
+
+table, caption {
+    margin: 0 auto;
+}
+
+form {
+    padding: 20px;
+}
+
+#startAmt {
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5%;
+    padding: 20px;
+    width: 20%;
+    font-size: 1.2em;
+}
+
+table {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

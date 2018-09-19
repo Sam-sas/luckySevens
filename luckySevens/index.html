@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Name: Sam Shepard
+    Date Created: 9/17/18
+    Most recent revision: 9/18/18
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lucky Sevens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="luckySevens.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lucky Sevens</h1>
+        </header>
+        <form name="luckySeven">
+            <label for="start">Starting Bet: $</label>
+            <input type="number" id="startAmt" name="start" placeholder="0.00">
+            <button type="submit" name="submit" id="submit" onclick="startGame(); return false;">Play</button>
+        </form>
+        <hr />
+        <div>
+            <table id="results">
+                <caption>Results</caption>
+                <tr>
+                    <td>Starting bet</td>
+                    <td><span id="betAmt"></span></td>
+                </tr>
+                <tr>
+                    <td>Total Rolls Before Going Broke</td>
+                    <td><span id="rollsTotal"></span></td>
+                </tr>
+                <tr>
+                    <td>Highest Amount Won</td>
+                    <td><span id="maxAmt"></span></td>
+                </tr>
+                <tr>
+                    <td>Roll Count at Highest Amount Won</td>
+                    <td><span id="rollCountMax"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="luckySevens.js"></script>
+</body>
+</html>
